@@ -240,6 +240,8 @@ img
 				a
 					&:before, &:after
 						width: 50%
+			&:first-of-type
+				display: none
 		a
 			display: block
 			position: relative
@@ -270,6 +272,7 @@ img
 		color: white
 
 .header
+	overflow: hidden
 	&_main
 		background: url('../../img/bg/header-main.png') no-repeat center top
 		min-height: 1795px
@@ -299,9 +302,9 @@ img
 					margin-top: 15px
 					font-size: 16px
 				
-
 			&__girl
 				position: absolute
+
 				top: 220px
 				left: 335px
 				width: 982px
@@ -920,6 +923,8 @@ img
 		padding-right: 20px
 		padding-bottom: 60px
 	&__table
+		thead
+			// display: none
 		td
 			width: 32%
 			&:nth-of-type(1)

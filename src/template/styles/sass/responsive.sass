@@ -1,13 +1,695 @@
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1300px)
+	img
+		max-width: 100%
+
 	.container
 		width: 950px
 
+	.panel
+		&__nav
+			margin-left: 0
+		&__phone
+			margin-right: 0
 
-@media screen and (max-width: 970px)
+	.header
+		&_main
+			.header
+				&__logo
+					margin-left: 0
+				&__address
+					margin-top: -15px
+					margin-left: 60px
+				&__left, &__right
+					float: none
+					position: relative
+					z-index: 5
+				&__right
+					width: 350px
+					padding-top: 50px
+					padding-right: 0
+				&__girl
+					z-index: 1
+					left: 185px
+		&_page
+			.header
+				&__logo
+					margin-left: 0
+					margin-top: 15px
+				&__text
+					margin-right: 0
+					margin-top: -110px
+	.about
+		&__title
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 30px
+		&__desc
+			margin-bottom: 35px
+		&__list
+			text-align: center
+			&:before, &:after
+				display: none
+		&__line
+			display: inline
+			&_top
+				.about
+					&__item
+						width: auto
+						&:nth-of-type(2), &:nth-of-type(4)
+							display: none
+			&_middle
+				.about
+					&__item
+						width: auto
+						&:nth-of-type(2)
+							display: none
+			&_bottom
+				.about
+					&__item
+						width: auto
+						&:nth-of-type(2)
+							display: none
+		&__img
+			position: relative
+			top: -55px
+		&__item
+			height: 240px
+			overflow: hidden
+
+	.top5
+		margin-top: 30px
+		&__wrap
+			margin-left: 0
+
+	.shares
+		padding-top: 30px
+		padding-bottom: 30px
+		&__title
+			margin-bottom: 25px
+		&__item
+			margin-bottom: 30px
+
+	.say-no
+		&__quote
+			text-align: center
+
+	.we
+		background: none
+		padding-top: 30px
+		padding-bottom: 20px
+		.container
+			&:before
+				display: none
+		&__title
+			margin-bottom: 5px
+			max-width: 100%
+			margin-left: 0
+			text-align: center
+		&__list
+			padding-left: 0
+			font-size: 0
+			margin-left: -15px
+			margin-right: -15px
+		&__item
+			color: #02015a
+			width: 50%
+			display: inline-block
+			vertical-align: top
+			margin-bottom: 10px !important
+			padding-left: 15px
+			padding-right: 15px
+		&__img, &__content
+			float: none
+		&__img
+			width: 100%
+			img
+				margin-left: auto
+				margin-right: auto
+		&__text
+			font-size: 20px
+			max-width: 100% !important
+		&__content
+			width: 100%
+		&__subtitle
+			padding-top: 0 !important
+			max-width: 100% !important
+
+	.photos
+		padding-bottom: 30px
+		&__title
+			padding-top: 10px
+			padding-bottom: 6px
+			font-size: 36px
+			margin-bottom: 20px
+		&__subtitle
+			height: 50px
+		&__item
+			margin-bottom: 30px
+
+	.advantages
+		padding-bottom: 0
+		&__wrap
+			background: none
+			padding-top: 115px
+			margin-right: 0
+			min-height: 515px
+		&__title
+			margin-right: 0
+			text-align: right
+		&__tags
+			margin-right: 0
+			text-align: right
+		&__boy
+			left: 400px
+		&__list
+			display: none
+			padding-top: 20px
+			margin-left: -8px
+			margin-right: -8px
+			margin-bottom: 16px
+		&__col
+			width: 50%
+			padding-right: 8px
+			padding-left: 8px
+		&__item
+			top: 0 !important
+			margin-bottom: 15px
+			padding-top: 30px !important
+		&__button
+			display: none
+			&-desc
+				display: none
+	.reviews
+		background: white
+		padding-top: 30px
+		padding-bottom: 25px
+		&__title
+			margin-left: 0
+			margin-bottom: 15px
+		&__list
+			&:before
+				display: none
+		&__col
+			padding-left: 0 !important
+			padding-right: 0 !important
+		&__desc
+			margin-top: 5px
+			margin-bottom: 5px
+	.camera
+		padding-top: 30px
+		.container
+			padding-bottom: 30px
+		&__title
+			margin-bottom: 10px
+		&__text
+			// margin-bottom: 20px
+		&__phone
+			display: none
+		&__text
+			margin-top: 15px
+			margin-left: auto
+			margin-right: auto
+			padding: 30px
+			width: 100%
+			max-width: 850px
+			margin-bottom: 30px
+	.instagram
+		padding-top: 10px
+		padding-bottom: 30px
+		&__img
+			width: 100%
+			margin-right: 0
+			float: none
+			img
+				transform: rotate(12.5deg)
+		&__content
+			float: none
+			width: 100%
+			margin-top: -45px
+			
+		&__persona
+			margin-bottom: 15px
+	.videos
+		padding-top: 25px
+		padding-bottom: 30px
+		&__title
+			margin-bottom: 25px
+		&__list
+			
+		&__item
+			margin-bottom: 16px
+			padding-left: 6px
+			padding-right: 6px
+		&__button
+			margin-top: 10px
+	.page
+		&__title
+			padding-top: 15px
+			padding-bottom: 15px
+		&__wrap
+			padding-bottom: 30px
+	.tickets
+		&__col
+			&:nth-of-type(3)
+				text-align: center
+				padding-right: 25px
+	.videos-page
+		&__button
+			margin-top: 0
+	.footer
+		padding-top: 25px
+		padding-bottom: 40px
+		&__title
+			display: none
+		&__metro, &__text, &__socials
+			margin-left: 0
+		&__socials
+			width: 230px
+		&__logo
+			margin-right: 40px
+	
+
+@media screen and (max-width: 992px)
 	.container
 		width: 750px
 
+	.title
+		font-size: 30px
+		line-height: 36px
 
+	.panel
+		&__nav
+			li
+				margin-right: 30px
+
+	.header
+		&_main
+			.header
+				&__girl
+					left: 80px
+
+	.about
+		&__line
+			&_bottom
+				.about
+					&__item
+						&:nth-of-type(3)
+							display: none
+	.top5
+		&__wrap
+			padding-top: 50px
+		&__title, &__desc
+			font-size: 30px
+			line-height: 36px
+
+	.shares
+		&__list
+			margin-left: -5px
+			margin-right: -5px
+		&__item
+			width: 33.3333% !important
+			padding-left: 5px
+			padding-right: 5px
+		&__subtitle
+			font-size: 20px !important
+			height: 55px !important
+	.say-no
+		padding-top: 20px
+		padding-bottom: 30px
+		&__title
+			margin-bottom: 15px
+			font-size: 30px
+			line-height: 36px
+		&__quote
+			margin-top: 10px
+			font-size: 22px
+			line-height: normal
+	.we
+		&__subtitle
+			font-size: 20px
+
+	.photos
+		&__subtitle
+			font-size: 20px
+			height: 35px
+			
+	.button
+		span
+			font-size: 18px !important
+
+	.advantages
+		&__wrap
+			padding-top: 50px
+		&__title
+			max-width: 500px
+		&__boy
+			top: 200px
+			left: 270px
+	.reviews
+		&__col
+			float: none !important
+			width: 100%
+		&__item
+			img
+				margin-left: auto
+				margin-right: auto
+
+	.videos
+		&__item
+			width: 33.3333% !important
+			iframe
+				height: 185px !important
+	.tickets
+		&__head
+			display: none
+		&__body
+			background: none
+			padding-left: 0
+			padding-right: 0
+		&__table
+			thead
+				display: table-header-group
+				text-align: center
+				font-weight: 700
+				font-size: 22px
+		&__total
+			td
+				text-align: center
+				padding-top: 0
+				padding-bottom: 30px
+	.feedback
+		&__title
+			font-size: 24px
+			margin-bottom: 20px
+		&__label
+			font-size: 20px
+	.shares-page
+		&__title
+			font-size: 24px
+			margin-bottom: 5px
+		&__img, &__text
+			margin-bottom: 15px
+		&__item
+			margin-bottom: 40px
+	.footer
+		background-size: 150% 150%
+		padding-bottom: 30px
+		&__address
+			width: 100%
+			float: none
+			padding-left: 0 !important
+			padding-right: 0 !important
+			margin-bottom: 35px
+		&__metro, &__map
+			margin-bottom: 15px
+
+		&__logo, &__button
+			display: none
+
+		&__wrap
+			padding-top: 0
+
+		&__socials
+			float: none
+			margin-right: 0
+			text-align: center
+			margin-left: auto
+			margin-right: auto
+			padding-top: 0
+		&__phone
+			float: none
+			margin-top: 30px
+			text-align: center
 @media screen and (max-width: 767px)
 	.container
 		width: 100%
+
+	.panel
+		background: #000
+		&__phone
+			float: left
+		&__btn
+			position: relative
+			display: block
+			float: right
+			z-index: 10
+		&__nav
+			position: fixed
+			top: 0
+			right: 0
+			float: none
+			background: #000
+			padding-top: 15px
+			width: 280px
+			height: 100%
+			transition: .3s
+			transform: translateX(100%)
+			&_toggle
+				transform: translateX(0%)
+			li
+				display: block
+				margin-right: 0
+				&:first-of-type
+					display: block
+			a
+				font-size: 24px
+				padding: 10px 15px
+
+	.header
+		background: none
+		&_main
+			background-position: 0 0
+			min-height: 1px
+			
+			color: #000
+			.header
+				&__girl
+					display: none
+				&__logo
+					img
+						margin-left: auto
+						margin-right: auto
+				&__address
+					margin-left: auto
+					margin-right: auto
+					max-width: 200px
+				&__right
+					float: none
+					width: 100%
+					padding-top: 30px
+		&_page
+			min-height: 1px
+			display: none
+			.header
+				&__logo
+					float: none
+					width: 100%
+					margin-top: 20px
+					margin-bottom: -20px
+					img
+						margin-left: auto
+						margin-right: auto
+				&__text
+					display: none
+				
+	.about
+		padding-top: 50px
+		margin-top: 0
+		&__title
+			display: none
+		&__desc
+			font-size: 36px
+			line-height: normal
+			margin-bottom: 15px
+
+	.top5
+		background-position: 0 0
+		margin-top: 0
+		text-align: center
+		min-height: 470px
+		padding-bottom: 15px
+		&__title
+			display: block
+		&__title, &__desc
+			text-align: center
+		&__imgs
+			padding-top: 15px
+			padding-bottom: 25px
+			text-align: center
+			&-item
+				&:nth-of-type(2)
+					display: none
+		&__button-desc
+			margin-left: 0
+
+	.shares
+		&__subtitle
+			height: auto !important
+			margin-bottom: 3px
+		&__img
+			img
+				margin-left: auto
+				margin-right: auto
+		&__item
+			width: 100% !important
+	.say-no
+		&__imgs
+			&-item
+				&:nth-of-type(1)
+					display: none
+				&:nth-of-type(2)
+					transform: rotate(-2.5deg)
+					display: block
+					margin-left: 0
+					img
+						margin-left: auto
+						margin-right: auto
+		&__title
+			font-size: 22px
+			line-height: normal
+	.we
+		&__item
+			width: 100%
+			display: block
+			padding-top: 0 !important
+	.photos
+		&__item
+			width: 50%
+	
+	.advantages
+		display: none
+
+	.reviews
+		padding-top: 10px
+		&__desc
+			display: none
+		&__button
+			margin-top: 10px
+			&-desc
+				display: none
+	.camera
+		&__desc, &__text
+			display: none
+	.videos, .videos-page
+		&__item
+			display: block
+			width: 100% !important
+			max-width: 500px
+			margin-left: auto
+			margin-right: auto
+			iframe
+				height: 240px !important
+	.tickets
+		&__imgs
+			display: none
+		&__table
+			thead
+				td
+					padding-top: 10px
+					padding-bottom: 15px
+		&__total
+			td
+				padding-top: 20px !important
+		&__ticket
+
+			td
+				padding-top: 5px
+				padding-bottom: 5px
+			p
+				font-size: 18px
+			span
+				font-size: 14px
+	.price
+		width: 88px
+		text-align: center
+		&__count, &__increment
+			display: block
+		&__count
+			margin-bottom: 3px
+
+	.feedback
+		text-align: center
+		&__title
+			// display: none
+		&__label, &__input, &__textarea
+			width: 100%
+			max-width: 320px
+		&__label
+			text-align: left
+			margin-bottom: 3px
+		&__button
+			margin-left: auto
+			margin-right: auto
+			margin-top: 10px
+	.footer
+		&__text
+			p
+				&:nth-of-type(1)
+					font-size: 20px
+	.title
+		padding-top: 70px
+		padding-bottom: 20px
+@media screen and (max-width: 550px)
+	.photos
+		&__item
+			width: 100%
+		&__img
+			img
+				margin-left: auto
+				margin-right: auto
+		
+@media screen and (max-width: 480px)
+	.instagram
+		overflow: hidden
+		&__quote
+			font-size: 22px
+			line-height: normal
+			margin-bottom: 10px
+		&__persona
+			font-size: 20px
+			margin-bottom: 10px
+		&__tags
+			font-size: 18px
+			line-height: normal
+	.videos, .videos-page
+		&__item
+			iframe
+				height: 180px !important
+@media screen and (max-width: 420px)
+	.about
+		padding-top: 25px
+		&__desc
+			font-size: 24px
+			margin-bottom: 30px
+@media screen and (max-width: 380px)
+	.tickets
+		&__table
+			thead
+				td
+					font-size: 16px
+					padding-bottom: 2px
+		&__ticket
+			td
+				padding-bottom: 0
+			p
+				font-size: 16px
+		&__total, &__button
+			display: none
+	.price
+		width: 100%
+		&__increment
+			display: none
+			
+@media screen and (max-width: 360px)
+	.about
+		&__item
+			height: 210px
+	.videos, .videos-page
+		&__item
+			iframe
+				height: 150px !important
+
+	.tickets
+		overflow: hidden
+		margin-left: -10px
+		margin-right: -10px

@@ -24,13 +24,9 @@
 <body>
 	<div class="panel">
 		<div class="container">
-			<div class="panel__btn col">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
 			<div class="panel__nav col">
 				<ul>
+					<li><a href="index.html">Главная</a></li>
 					<li><a href="tickets.html">билеты</a></li>
 					<li><a href="videos.html">Видео</a></li>
 					<li><a href="photos.html">Фото</a></li>
@@ -39,6 +35,11 @@
 				</ul>
 			</div>
 			<div class="panel__phone col"><a href="+74996496842">+7 (499) 649-68-42</a></div>
+			<div class="panel__btn col">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 		</div>
 	</div>
 	<header class="header header_main parallax-viewport">
@@ -379,83 +380,92 @@
 					</div>
 					<div class="tickets__body">
 						<table class="tickets__table">
-							<tr class="tickets__imgs">
-								<td></td>
-								<td><img src="upload/places/1.png" alt=""></td>
-								<td><img src="upload/places/2.png" alt=""></td>
-							</tr>
-							<tr class="tickets__ticket">
-								<td><p>Взрослый билет</p></td>
-								<td>
-									<div class="price">
-										<div class="price__count"><span>350</span> руб.</div>
-										<div class="price__increment increment">
-											<div class="increment__button increment__button_minus">-</div>
-											<div class="increment__input"><input type="text" placeholder="0"></div>
-											<div class="increment__button increment__button_plus">+</div>
+							<thead>
+								<tr>
+									<td>ЦЕНА ЗА 1 БИЛЕТ</td>
+									<td>ТЦ «ВДНХ»</td>
+									<td>ТРК «РИВЬЕРА»</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tickets__imgs">
+									<td></td>
+									<td><img src="upload/places/1.png" alt=""></td>
+									<td><img src="upload/places/2.png" alt=""></td>
+								</tr>
+								<tr class="tickets__ticket">
+									<td><p>Взрослый билет</p></td>
+									<td>
+										<div class="price">
+											<div class="price__count"><span>350</span> руб.</div>
+											<div class="price__increment increment">
+												<div class="increment__button increment__button_minus">-</div>
+												<div class="increment__input"><input type="text" placeholder="0"></div>
+												<div class="increment__button increment__button_plus">+</div>
+											</div>
 										</div>
-									</div>
-								</td>
-								<td>
-									<div class="price">
-										<div class="price__count"><span>450</span> руб.</div>
-										<div class="price__increment increment">
-											<div class="increment__button increment__button_minus">-</div>
-											<div class="increment__input"><input type="text" placeholder="0"></div>
-											<div class="increment__button increment__button_plus">+</div>
+									</td>
+									<td>
+										<div class="price">
+											<div class="price__count"><span>450</span> руб.</div>
+											<div class="price__increment increment">
+												<div class="increment__button increment__button_minus">-</div>
+												<div class="increment__input"><input type="text" placeholder="0"></div>
+												<div class="increment__button increment__button_plus">+</div>
+											</div>
 										</div>
-									</div>
-								</td>
-							</tr>
-							<tr class="tickets__ticket">
-								<td><p>Льготный билет</p><span>(дети до 14 лет, пенсионеры, многодетные семьи)</span></td>
-								<td>
-									<div class="price">
-										<div class="price__count"><span>250</span> руб.</div>
-										<div class="price__increment increment">
-											<div class="increment__button increment__button_minus">-</div>
-											<div class="increment__input"><input type="text" placeholder="0"></div>
-											<div class="increment__button increment__button_plus">+</div>
+									</td>
+								</tr>
+								<tr class="tickets__ticket">
+									<td><p>Льготный билет</p><span>(дети до 14 лет, пенсионеры, многодетные семьи)</span></td>
+									<td>
+										<div class="price">
+											<div class="price__count"><span>250</span> руб.</div>
+											<div class="price__increment increment">
+												<div class="increment__button increment__button_minus">-</div>
+												<div class="increment__input"><input type="text" placeholder="0"></div>
+												<div class="increment__button increment__button_plus">+</div>
+											</div>
 										</div>
-									</div>
-								</td>
-								<td>
-									<div class="price">
-										<div class="price__count"><span>350</span> руб.</div>
-										<div class="price__increment increment">
-											<div class="increment__button increment__button_minus">-</div>
-											<div class="increment__input"><input type="text" placeholder="0"></div>
-											<div class="increment__button increment__button_plus">+</div>
+									</td>
+									<td>
+										<div class="price">
+											<div class="price__count"><span>350</span> руб.</div>
+											<div class="price__increment increment">
+												<div class="increment__button increment__button_minus">-</div>
+												<div class="increment__input"><input type="text" placeholder="0"></div>
+												<div class="increment__button increment__button_plus">+</div>
+											</div>
 										</div>
-									</div>
-								</td>
-							</tr>
-							<tr class="tickets__ticket">
-								<td><p>Бесплатно</p><span>(дети до 4 лет, лица с ограниченными возможностями 1 и 2 группы)</span></td>
-								<td>
-									<div class="price">
-										<div class="price__count"><span>0</span> руб.</div>
-										<div class="price__increment increment">
-											<div class="increment__button increment__button_minus">-</div>
-											<div class="increment__input"><input type="text" placeholder="0"></div>
-											<div class="increment__button increment__button_plus">+</div>
+									</td>
+								</tr>
+								<tr class="tickets__ticket">
+									<td><p>Бесплатно</p><span>(дети до 4 лет, лица с ограниченными возможностями 1 и 2 группы)</span></td>
+									<td>
+										<div class="price">
+											<div class="price__count"><span>0</span> руб.</div>
+											<div class="price__increment increment">
+												<div class="increment__button increment__button_minus">-</div>
+												<div class="increment__input"><input type="text" placeholder="0"></div>
+												<div class="increment__button increment__button_plus">+</div>
+											</div>
 										</div>
-									</div>
-								</td>
-								<td>
-									<div class="price">
-										<div class="price__count"><span>0</span> руб.</div>
-										<div class="price__increment increment">
-											<div class="increment__button increment__button_minus">-</div>
-											<div class="increment__input"><input type="text" placeholder="0"></div>
-											<div class="increment__button increment__button_plus">+</div>
+									</td>
+									<td>
+										<div class="price">
+											<div class="price__count"><span>0</span> руб.</div>
+											<div class="price__increment increment">
+												<div class="increment__button increment__button_minus">-</div>
+												<div class="increment__input"><input type="text" placeholder="0"></div>
+												<div class="increment__button increment__button_plus">+</div>
+											</div>
 										</div>
-									</div>
-								</td>
-							</tr>
-							<tr class="tickets__total">
-								<td colspan="3"><p>итого: <span>630</span> руб.</p></td>
-							</tr>
+									</td>
+								</tr>
+								<tr class="tickets__total">
+									<td colspan="3"><p>итого: <span>630</span> руб.</p></td>
+								</tr>
+							</tbody>
 						</table>
 						<div class="tickets__button-wrap">
 							<div class="tickets__button button button_red"><span>купить со скидкой</span></div>
