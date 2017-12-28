@@ -538,3 +538,56 @@ img {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto; }
+
+.we {
+  padding-top: 68px;
+  background: url("../../img/bg/we.png") no-repeat center 250px;
+  overflow: hidden;
+  color: white; }
+  .we .container:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -16px;
+    background: url("../../img/bg/zibra.png");
+    width: 1455px;
+    height: 774px; }
+  .we__title {
+    color: #02015a;
+    margin-left: 85px;
+    max-width: 480px;
+    text-align: left;
+    margin-bottom: 39px; }
+  .we__list {
+    position: relative;
+    padding-left: 100px; }
+  .we__item:nth-of-type(1) {
+    padding-top: 40px;
+    margin-bottom: 60px; }
+    .we__item:nth-of-type(1) .we__subtitle {
+      padding-top: 25px;
+      max-width: 360px; }
+    .we__item:nth-of-type(1) .we__text {
+      max-width: 400px; }
+  .we__item:nth-of-type(2) {
+    margin-bottom: 60px; }
+    .we__item:nth-of-type(2) .we__subtitle {
+      padding-top: 55px;
+      max-width: 425px; }
+  .we__item:nth-of-type(3) {
+    margin-bottom: 17px; }
+    .we__item:nth-of-type(3) .we__subtitle {
+      padding-top: 70px; }
+  .we__item:nth-of-type(4) .we__subtitle {
+    padding-top: 50px; }
+  .we__item:nth-of-type(3), .we__item:nth-of-type(4) {
+    color: #02015a; }
+  .we__img {
+    width: 305px; }
+  .we__content {
+    width: 730px; }
+  .we__subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
