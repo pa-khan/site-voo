@@ -167,6 +167,14 @@ img {
   .col-5 {
     width: 20%; }
 
+.title {
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0d87f3;
+  font-weight: 900; }
+
 /* Form elements */
 .text {
   display: block;
@@ -227,6 +235,8 @@ img {
       color: #fff;
       padding: 11px 30px 9px;
       border: 1px solid rgba(255, 255, 255, 0.7); }
+    .button_red:hover {
+      background-color: #a80127; }
 
 .text, .area {
   -webkit-transition: border-color .3s;
@@ -423,3 +433,32 @@ img {
       .about__text .icon-heart {
         bottom: -60px;
         right: 25px; }
+
+.top5 {
+  margin-top: 115px;
+  min-height: 650px;
+  background: url("../../img/bg/top5.png") no-repeat center top; }
+  .top5__wrap {
+    margin-left: 215px;
+    padding-top: 15px; }
+  .top5__title, .top5__desc {
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .top5__title {
+    display: none; }
+  .top5__imgs {
+    font-size: 0; }
+    .top5__imgs-item {
+      display: inline-block;
+      vertical-align: middle; }
+  .top5__button {
+    font-size: 30px; }
+    .top5__button span {
+      padding: 14px 35px 12px; }
+    .top5__button-desc {
+      font-size: 19px;
+      font-weight: 700;
+      margin-top: 15px;
+      margin-left: 18px; }

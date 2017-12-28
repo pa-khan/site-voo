@@ -105,6 +105,13 @@ img
 		width: (100% / 5)
  
 
+.title
+	font-size: 50px
+	line-height: 66px
+	text-align: center
+	text-transform: uppercase
+	color: #0d87f3
+	font-weight: 900
 	
 
 
@@ -155,6 +162,8 @@ img
 			color: #fff
 			padding: 11px 30px 9px
 			border: 1px solid rgba(255,255,255,.7)
+		&:hover
+			background-color: darken(#db0133, 10%)
 
 .text, .area
 	transition: border-color .3s
@@ -355,3 +364,32 @@ img
 			&-heart
 				bottom: -60px
 				right: 25px
+
+.top5
+	margin-top: 115px
+	min-height: 650px
+	background: url('../../img/bg/top5.png') no-repeat center top
+	&__wrap
+		margin-left: 215px
+		padding-top: 15px
+	&__title, &__desc
+		font-size: 36px
+		line-height: 60px
+		text-transform: uppercase
+		font-weight: 300
+	&__title
+		display: none
+	&__imgs
+		font-size: 0
+		&-item
+			display: inline-block
+			vertical-align: middle
+	&__button
+		font-size: 30px
+		span
+			padding: 14px 35px 12px
+		&-desc
+			font-size: 19px
+			font-weight: 700
+			margin-top: 15px
+			margin-left: 18px
