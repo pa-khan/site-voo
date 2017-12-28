@@ -13,8 +13,8 @@ $(document).ready(function($) {
 	});
 
 	$('.header__girl div').parallax({
-		mouseport: $(".header_main"),
+		// mouseport: $(".header_main"),
 		xparallax: '50px',
-		yparallax: '50px'
+		yparallax: '150px'
 	});
 });

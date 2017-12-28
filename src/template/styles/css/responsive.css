@@ -22,7 +22,7 @@
     padding-right: 0; }
   .header_main .header__girl {
     z-index: 1;
-    left: 185px; }
+    left: 235px; }
   .header_page .header__logo {
     margin-left: 0;
     margin-top: 15px; }
@@ -245,7 +245,7 @@
   .panel__nav li {
     margin-right: 30px; }
   .header_main .header__girl {
-    left: 80px; }
+    left: 130px; }
   .about__line_bottom .about__item:nth-of-type(3) {
     display: none; }
   .top5__wrap {
@@ -532,7 +532,7 @@
       margin-top: 10px; }
   .footer__text p:nth-of-type(1) {
     font-size: 20px; }
-  .title {
+  .page__title {
     padding-top: 70px;
     padding-bottom: 20px; } }
 
