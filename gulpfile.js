@@ -47,6 +47,7 @@ gulp.task('scripts', function() {
 		'src/template/libs/fancybox/dist/jquery.fancybox.js',
 		'src/template/libs/jparallax/js/jquery.parallax.js',
 		'src/template/libs/jparallax/js/jquery.event.frame.js'
+		// 'src/template/libs/jparallax/js/jquery.event.frame.js'
 		])
 		.pipe(concat('libs.js')) 
 		.pipe(gulp.dest('src/template/scripts')); 
