@@ -17,8 +17,8 @@ $crest-width: 138px
 $crest-height: 100px
 $crest-total-width: 189px
 $crest-total-height: 130px
-$crest-image: '../../img/sprite.png'
-$crest: (0px, 0px, 0px, 0px, 138px, 100px, 189px, 130px, '../../img/sprite.png', 'crest', )
+$crest-image: 'sprite.png'
+$crest: (0px, 0px, 0px, 0px, 138px, 100px, 189px, 130px, 'sprite.png', 'crest', )
 $facebook-name: 'facebook'
 $facebook-x: 138px
 $facebook-y: 51px
@@ -28,8 +28,8 @@ $facebook-width: 31px
 $facebook-height: 31px
 $facebook-total-width: 189px
 $facebook-total-height: 130px
-$facebook-image: '../../img/sprite.png'
-$facebook: (138px, 51px, -138px, -51px, 31px, 31px, 189px, 130px, '../../img/sprite.png', 'facebook', )
+$facebook-image: 'sprite.png'
+$facebook: (138px, 51px, -138px, -51px, 31px, 31px, 189px, 130px, 'sprite.png', 'facebook', )
 $heart-name: 'heart'
 $heart-x: 138px
 $heart-y: 0px
@@ -39,8 +39,8 @@ $heart-width: 51px
 $heart-height: 51px
 $heart-total-width: 189px
 $heart-total-height: 130px
-$heart-image: '../../img/sprite.png'
-$heart: (138px, 0px, -138px, 0px, 51px, 51px, 189px, 130px, '../../img/sprite.png', 'heart', )
+$heart-image: 'sprite.png'
+$heart: (138px, 0px, -138px, 0px, 51px, 51px, 189px, 130px, 'sprite.png', 'heart', )
 $instagram-name: 'instagram'
 $instagram-x: 0px
 $instagram-y: 100px
@@ -50,8 +50,8 @@ $instagram-width: 31px
 $instagram-height: 30px
 $instagram-total-width: 189px
 $instagram-total-height: 130px
-$instagram-image: '../../img/sprite.png'
-$instagram: (0px, 100px, 0px, -100px, 31px, 30px, 189px, 130px, '../../img/sprite.png', 'instagram', )
+$instagram-image: 'sprite.png'
+$instagram: (0px, 100px, 0px, -100px, 31px, 30px, 189px, 130px, 'sprite.png', 'instagram', )
 $linkedin-name: 'linkedin'
 $linkedin-x: 31px
 $linkedin-y: 100px
@@ -61,8 +61,8 @@ $linkedin-width: 31px
 $linkedin-height: 30px
 $linkedin-total-width: 189px
 $linkedin-total-height: 130px
-$linkedin-image: '../../img/sprite.png'
-$linkedin: (31px, 100px, -31px, -100px, 31px, 30px, 189px, 130px, '../../img/sprite.png', 'linkedin', )
+$linkedin-image: 'sprite.png'
+$linkedin: (31px, 100px, -31px, -100px, 31px, 30px, 189px, 130px, 'sprite.png', 'linkedin', )
 $metro-name: 'metro'
 $metro-x: 138px
 $metro-y: 82px
@@ -72,8 +72,8 @@ $metro-width: 25px
 $metro-height: 16px
 $metro-total-width: 189px
 $metro-total-height: 130px
-$metro-image: '../../img/sprite.png'
-$metro: (138px, 82px, -138px, -82px, 25px, 16px, 189px, 130px, '../../img/sprite.png', 'metro', )
+$metro-image: 'sprite.png'
+$metro: (138px, 82px, -138px, -82px, 25px, 16px, 189px, 130px, 'sprite.png', 'metro', )
 $twitter-name: 'twitter'
 $twitter-x: 62px
 $twitter-y: 100px
@@ -83,8 +83,8 @@ $twitter-width: 31px
 $twitter-height: 30px
 $twitter-total-width: 189px
 $twitter-total-height: 130px
-$twitter-image: '../../img/sprite.png'
-$twitter: (62px, 100px, -62px, -100px, 31px, 30px, 189px, 130px, '../../img/sprite.png', 'twitter', )
+$twitter-image: 'sprite.png'
+$twitter: (62px, 100px, -62px, -100px, 31px, 30px, 189px, 130px, 'sprite.png', 'twitter', )
 $youtube-name: 'youtube'
 $youtube-x: 93px
 $youtube-y: 100px
@@ -94,13 +94,13 @@ $youtube-width: 31px
 $youtube-height: 30px
 $youtube-total-width: 189px
 $youtube-total-height: 130px
-$youtube-image: '../../img/sprite.png'
-$youtube: (93px, 100px, -93px, -100px, 31px, 30px, 189px, 130px, '../../img/sprite.png', 'youtube', )
+$youtube-image: 'sprite.png'
+$youtube: (93px, 100px, -93px, -100px, 31px, 30px, 189px, 130px, 'sprite.png', 'youtube', )
 $spritesheet-width: 189px
 $spritesheet-height: 130px
-$spritesheet-image: '../../img/sprite.png'
+$spritesheet-image: 'sprite.png'
 $spritesheet-sprites: ($crest, $facebook, $heart, $instagram, $linkedin, $metro, $twitter, $youtube, )
-$spritesheet: (189px, 130px, '../../img/sprite.png', $spritesheet-sprites, )
+$spritesheet: (189px, 130px, 'sprite.png', $spritesheet-sprites, )
 
 // The provided mixins are intended to be used with the array-like variables
 //
@@ -152,21 +152,3 @@ $spritesheet: (189px, 130px, '../../img/sprite.png', $spritesheet-sprites, )
     $sprite-name: nth($sprite, 10)
     .#{$sprite-name}
       @include sprite($sprite)
-
-.icon-
-  &crest
-    @include sprite($crest)
-  &facebook
-    @include sprite($facebook)
-  &heart
-    @include sprite($heart)
-  &instagram
-    @include sprite($instagram)
-  &linkedin
-    @include sprite($linkedin)
-  &metro
-    @include sprite($metro)
-  &twitter
-    @include sprite($twitter)
-  &youtube
-    @include sprite($youtube)

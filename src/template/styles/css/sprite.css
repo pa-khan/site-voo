@@ -1,0 +1,47 @@
+.icon-crest {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 138px;
+  height: 100px; }
+
+.icon-facebook {
+  background-image: url(../../img/sprite.png);
+  background-position: -138px -51px;
+  width: 31px;
+  height: 31px; }
+
+.icon-heart {
+  background-image: url(../../img/sprite.png);
+  background-position: -138px 0px;
+  width: 51px;
+  height: 51px; }
+
+.icon-instagram {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -100px;
+  width: 31px;
+  height: 30px; }
+
+.icon-linkedin {
+  background-image: url(../../img/sprite.png);
+  background-position: -31px -100px;
+  width: 31px;
+  height: 30px; }
+
+.icon-metro {
+  background-image: url(../../img/sprite.png);
+  background-position: -138px -82px;
+  width: 25px;
+  height: 16px; }
+
+.icon-twitter {
+  background-image: url(../../img/sprite.png);
+  background-position: -62px -100px;
+  width: 31px;
+  height: 30px; }
+
+.icon-youtube {
+  background-image: url(../../img/sprite.png);
+  background-position: -93px -100px;
+  width: 31px;
+  height: 30px; }
