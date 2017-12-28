@@ -57,7 +57,6 @@ a
 img
 	display: block
 
-
 .icon
 	display: inline-block
 	vertical-align: middle
@@ -151,6 +150,7 @@ img
 	text-transform: uppercase
 	font-weight: 700
 	border-bottom: none
+	box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.25)
 	span
 		display: block
 		border-radius: 50px
@@ -164,7 +164,13 @@ img
 			border: 1px solid rgba(255,255,255,.7)
 		&:hover
 			background-color: darken(#db0133, 10%)
-
+	&_gray
+		font-size: 25px
+		background-color: #ebe9e9
+		span
+			color: #0d87f3
+			padding: 11px 30px 9px
+			border: 1px solid #0d87f3
 .text, .area
 	transition: border-color .3s
 
@@ -393,3 +399,74 @@ img
 			font-weight: 700
 			margin-top: 15px
 			margin-left: 18px
+
+.shares
+	padding-top: 60px
+	padding-bottom: 60px
+	text-align: center
+	&__title
+		margin-bottom: 77px
+
+	&__list
+		margin-left: -15px
+		margin-right: -15px
+	&__item
+		width: 25%
+		padding-left: 15px
+		padding-right: 15px
+		margin-bottom: 90px
+		&:nth-of-type(1), &:nth-of-type(2)
+			width: 50%
+			.shares
+				&__subtitle
+					font-size: 30px
+					height: 100px
+					max-width: 400px
+					margin-left: auto
+					margin-right: auto
+	&__img
+		img
+			max-width: 100%
+	&__subtitle
+		text-transform: uppercase
+		font-weight: 700
+		height: 50px
+
+	&__button
+		margin-top: -15px
+		span
+			padding-left: 45px
+			padding-right: 45px
+
+.say-no
+	background-color: #e5e5e5
+	padding-top: 62px
+	padding-bottom: 68px
+	&__title
+		font-size: 36px
+		line-height: 60px
+		text-transform: uppercase
+		font-weight: 900
+		text-align: center
+		max-width: 1060px
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 60px
+		span
+			color: #1991d7
+	&__imgs
+		font-size: 0
+		text-align: center
+		&-item
+			display: inline-block
+			vertical-align: middle
+			&:nth-of-type(2)
+				margin-left: -180px
+	&__quote
+		font-size: 30px
+		font-style: italic
+		line-height: 40px
+		margin-top: 58px
+		max-width: 900px
+		margin-left: auto
+		margin-right: auto
