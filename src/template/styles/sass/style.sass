@@ -360,7 +360,7 @@ img
 		margin-left: auto
 		margin-right: auto
 		font-weight: 300
-		margin-top: 38px
+		margin-top: 30px
 		position: relative
 		.icon
 			position: absolute
@@ -368,8 +368,8 @@ img
 				bottom: -28px
 				right: 55px
 			&-heart
-				bottom: -60px
-				right: 25px
+				bottom: -45px
+				right: 15px
 
 .top5
 	margin-top: 115px
@@ -570,4 +570,109 @@ img
 			padding-right: 50px
 		&-desc
 			margin-top: 20px
+		
+.advantages
+	background: url('../../img/bg/advantages.png') no-repeat center top
+	padding-top: 122px
+	padding-bottom: 85px
+	text-align: center
+	&__wrap
+		z-index: 2
+		position: relative
+		color: #112433
+		background: url('../../img/bg/border.png') no-repeat right top
+		margin-right: -15px
+		color: #112433
+		padding-top: 125px
+		min-height: 600px
+	&__title
+		color: #112433
+		max-width: 670px
+		margin-left: auto
+		margin-right: 96px
+	&__tags
+		font-size: 22px
+		line-height: 33px
+		margin-left: auto
+		width: 200px
+		margin-right: 250px
+		font-weight: 700
+	&__boy
+		position: absolute
+		top: 272px
+		left: 450px
+	&__list
+		margin-bottom: 45px
+	&__col
+		width: 25%
+		color: white
+		padding-left: 15px
+		padding-right: 15px
+		&:nth-of-type(1)
+			.advantages
+				&__item
+					top: -48px
+					padding-top: 82px
+					background-color: #635f5a
+				&__subtitle
+					
+		&:nth-of-type(2)
+			.advantages
+				&__item
+					top: -66px
+					padding-top: 41px
+					background-color: #748272
+				&__subtitle
+					z-index: 3
+					position: relative
+		&:nth-of-type(3)
+			.advantages
+				&__item
+					padding-top: 40px
+					background-color: #112433
+				&__subtitle
+					
+		&:nth-of-type(4)
+			.advantages
+				&__item
+					top: -48px
+					position: relative
+					z-index: 3
+					padding-top: 72px
+					background-color: #d49a77
+				&__subtitle
+	&__list
+		margin-left: -15px
+		margin-right: -30px	
+	&__item
+		position: relative
+		min-height: 285px
+		padding-left: 20px
+		padding-right: 20px
+	&__subtitle
+		line-height: 30px
+		font-weight: 700
+		text-transform: uppercase
+		margin-bottom: 30px
+		max-width: 220px
+		margin-left: auto
+		margin-right: auto
+	&__button
+		span
+			font-size: 30px
+			padding: 14px 40px 12px
+		&-desc
+			margin-top: 17px
+			font-weight: 700
+		
+.reviews
+	padding-top: 25px
+	background: url('../../img/bg/rectangle.png') no-repeat center top
+	&__title
+		text-align: left
+		margin-left: 38px
+	&__list
+		&:before
+			content: ''
+			@include sprite($likes)
 		
