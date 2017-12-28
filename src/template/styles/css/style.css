@@ -246,6 +246,11 @@ img {
       color: #0d87f3;
       padding: 11px 30px 9px;
       border: 1px solid #0d87f3; }
+    .button_gray:hover {
+      background-color: #0d87f3; }
+      .button_gray:hover span {
+        color: white;
+        border-color: white; }
 
 .text, .area {
   -webkit-transition: border-color .3s;
@@ -707,7 +712,142 @@ img {
 
 .reviews {
   padding-top: 25px;
-  background: url("../../img/bg/rectangle.png") no-repeat center top; }
+  padding-bottom: 70px;
+  background: url("../../img/bg/rectangle.png") no-repeat center top;
+  text-align: center; }
   .reviews__title {
     text-align: left;
     margin-left: 38px; }
+  .reviews__list:before {
+    display: block;
+    content: '';
+    width: 171px;
+    height: 111px;
+    margin-left: auto;
+    margin-right: 85px;
+    background: url("../../img/bg/likes.png") no-repeat center; }
+  .reviews__col {
+    width: 50%; }
+    .reviews__col:nth-of-type(1) {
+      padding-right: 15px; }
+    .reviews__col:nth-of-type(2) {
+      padding-left: 15px; }
+  .reviews__img img {
+    max-width: 100%; }
+  .reviews__desc {
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #0d5fd7;
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 42px; }
+    .reviews__desc strong {
+      font-weight: 400; }
+  .reviews__button-desc {
+    margin-top: 20px; }
+
+.camera {
+  color: white;
+  padding-top: 90px;
+  background: url("../../img/bg/camera.png") no-repeat center top;
+  text-align: center; }
+  .camera .container {
+    padding-bottom: 52px; }
+  .camera__title {
+    color: white;
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px; }
+  .camera__desc {
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto; }
+    .camera__desc span {
+      color: #6fecf7; }
+  .camera__text {
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    padding: 50px 90px;
+    width: 515px;
+    line-height: 30px;
+    margin-left: 155px;
+    margin-top: 75px;
+    margin-bottom: 100px; }
+    .camera__text span {
+      color: #6fecf7; }
+  .camera__button {
+    font-size: 30px; }
+    .camera__button-desc {
+      font-size: 19px;
+      font-weight: 700;
+      margin-top: 17px; }
+  .camera__phone {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+
+.instagram {
+  padding-top: 115px;
+  padding-bottom: 90px;
+  background-color: #e5e5e5; }
+  .instagram__img {
+    width: 420px;
+    margin-right: 60px; }
+    .instagram__img img {
+      margin-left: auto;
+      margin-right: auto; }
+  .instagram__content {
+    width: 690px; }
+  .instagram__quote {
+    padding-top: 25px;
+    font-size: 30px;
+    line-height: 40px;
+    font-style: italic;
+    margin-bottom: 15px; }
+  .instagram__persona {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px; }
+  .instagram__tags {
+    font-size: 30px;
+    line-height: 40px;
+    color: #00a3fe;
+    font-weight: 700;
+    margin-bottom: 15px; }
+  .instagram__desc {
+    font-size: 18px; }
+
+.videos {
+  padding-top: 72px;
+  text-align: center; }
+  .videos__title {
+    margin-bottom: 40px; }
+  .videos__item {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0;
+    margin-bottom: 80px; }
+    .videos__item:nth-of-type(1), .videos__item:nth-of-type(2) {
+      width: 50%; }
+      .videos__item:nth-of-type(1) iframe, .videos__item:nth-of-type(2) iframe {
+        width: 100%;
+        height: 330px; }
+  .videos iframe {
+    width: 100%;
+    height: 185px; }
+  .videos__button {
+    margin-top: -10px; }
+    .videos__button span {
+      padding-left: 45px;
+      padding-right: 45px; }
