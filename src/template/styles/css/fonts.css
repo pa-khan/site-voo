@@ -1,3 +1,27 @@
 /* Including fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
 @font-face {
-  src: url("../../fonts/"); }
+  src: url("../../fonts/TTPines-Light.otf");
+  font-family: 'TT Pines';
+  font-weight: 300; }
+
+@font-face {
+  src: url("../../fonts/TTPines-Regular.otf");
+  font-family: 'TT Pines';
+  font-weight: 400; }
+
+@font-face {
+  src: url("../../fonts/TTPines-Italic.otf");
+  font-family: 'TT Pines';
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  src: url("../../fonts/TTPines-Bold.otf");
+  font-family: 'TT Pines';
+  font-weight: 700; }
+
+@font-face {
+  src: url("../../fonts/TTPines-Black.otf");
+  font-family: 'TT Pines';
+  font-weight: 900; }
