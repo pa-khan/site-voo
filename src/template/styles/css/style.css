@@ -1,0 +1,154 @@
+/* Including styles files */
+/* Including fonts */
+@font-face {
+  src: url("../../fonts/"); }
+
+/* Global settings */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: "Tahoma", sans-serif;
+  color: #000;
+  background: white; }
+
+header, nav, main, section, article, aside, footer, li, .block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.hidden {
+  display: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+ul {
+  font-size: 0; }
+  ul li {
+    display: inline-block;
+    font-size: 16px;
+    list-style-type: none; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+img {
+  display: block; }
+
+.icon {
+  display: inline-block;
+  vertical-align: middle; }
+
+.input, .button, .slick-slide, .textarea {
+  outline: none; }
+
+/* Grid */
+.container {
+  position: relative;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.row:before, .row:after, .clearfix:before, .clearfix:after {
+  display: table;
+  content: '';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.row:after, .clearfix:after {
+  clear: both; }
+
+.row_line {
+  text-align: center;
+  font-size: 0; }
+
+.col {
+  min-height: 1px;
+  float: left;
+  display: block; }
+  .col_line {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    min-height: 1px; }
+  .col-1 {
+    width: 100%; }
+  .col-2 {
+    width: 50%; }
+  .col-3 {
+    width: 33.33333%; }
+  .col-4 {
+    width: 25%; }
+  .col-5 {
+    width: 20%; }
+
+/* Form elements */
+.input {
+  display: block;
+  font-size: 16px;
+  font-family: "Tahoma", sans-serif;
+  background: white;
+  width: 100%; }
+  .input::-webkit-input-placeholder {
+    color: #878686; }
+  .input::-moz-placeholder {
+    color: #878686; }
+  .input:-ms-input-placeholder {
+    color: #878686; }
+  .input::placeholder {
+    color: #878686; }
+
+.textarea {
+  font-size: 16px;
+  font-family: "Tahoma", sans-serif;
+  display: block;
+  background: white;
+  resize: none;
+  border: 1px solid #f0f0f0; }
+  .textarea::-webkit-input-placeholder {
+    color: #878686; }
+  .textarea::-moz-placeholder {
+    color: #878686; }
+  .textarea:-ms-input-placeholder {
+    color: #878686; }
+  .textarea::placeholder {
+    color: #878686; }
+
+.button {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  font-family: "Tahoma", sans-serif;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+.input, .textarea {
+  -webkit-transition: border-color .3s;
+  transition: border-color .3s; }
+
+/* Blocks align */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.center, .container {
+  margin-left: auto;
+  margin-right: auto; }
